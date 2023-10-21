@@ -5,27 +5,57 @@
 }
 
 /* .debug */
+/* Color */
+.debug .blue {
+  background-color: blue;
+}
+.debug .white {
+  background-color: white;
+}
+.debug .green {
+  background-color: green;
+}
+.debug .yellow {
+  background-color: yellow;
+}
+.debug .orange {
+  background-color: orangered;
+}
+/* Height */
+.debug .h800 {
+  height: 800px;
+}
+.debug .h700 {
+  height: 700px;
+}
+.debug .h80 {
+  height: 80px;
+}
+.debug .h40 {
+  height: 40px;
+}
+/* Widht */
+.debug .w400 {
+  width: 400px;
+}
+.debug .w80 {
+  width: 80%;
+}
+.debug .w60 {
+  width: 60px;
+}
+/* Border */
+.debug .b-2dd {
+  border: 2px dashed black;
+}
+
 /* Header */
 
 nav {
-  height: 80px;
-  background-color: blue;
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-
-.logo {
-  width: 60px;
-  height: 40px;
-  background-color: white;
-}
-
-.menu {
-  width: 400px;
-  height: 40px;
-  background-color: white;
 }
 
 /* end Header */
@@ -34,14 +64,9 @@ nav {
 
 .container {
   width: 100%;
-  height: 800px;
-  background-color: green;
 }
 
 .row {
-  width: 80%;
-  height: 700px;
-  background-color: yellow;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -51,14 +76,10 @@ nav {
 
 .col-8 {
   width: calc(100% / 12 * 8);
-  background-color: orangered;
-  border: 2px dashed black;
 }
 
 .col-4 {
   width: calc(100% / 12 * 4);
-  background-color: orangered;
-  border: 2px dashed black;
 }
 
 /* end main */
