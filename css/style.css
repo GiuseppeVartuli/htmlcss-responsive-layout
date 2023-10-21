@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 /* utility */
+.align-center {
+  align-content: center;
+}
 .d-flex {
   display: flex;
 }
