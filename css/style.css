@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .debug */
+/* Header */
+
+nav {
+  height: 80px;
+  background-color: blue;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  width: 60px;
+  height: 40px;
+  background-color: white;
+}
+
+.menu {
+  width: 400px;
+  height: 40px;
+  background-color: white;
+}
+
+/* end Header */
+
+/* main */
+
+.container {
+  width: 100%;
+  height: 800px;
+  background-color: green;
+}
+
+.row {
+  width: 80%;
+  height: 700px;
+  background-color: yellow;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.col-8 {
+  width: calc(100% / 12 * 8);
+  background-color: orangered;
+  border: 2px dashed black;
+}
+
+.col-4 {
+  width: calc(100% / 12 * 4);
+  background-color: orangered;
+  border: 2px dashed black;
+}
+
+/* end main */
