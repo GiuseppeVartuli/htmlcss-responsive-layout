@@ -62,6 +62,9 @@
   height: 40px;
 }
 /* Widht */
+.debug .w900 {
+  width: 900px;
+}
 .debug .w800 {
   width: 800px;
 }
@@ -83,7 +86,6 @@
 
 nav {
   width: 100%;
-  display: flex;
   justify-content: space-around;
   align-items: center;
 }
