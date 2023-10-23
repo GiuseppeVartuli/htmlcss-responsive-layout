@@ -7,6 +7,9 @@
 .flex-column {
   flex-direction: column;
 }
+.justify-center {
+  justify-content: center;
+}
 .align-center {
   align-content: center;
 }
@@ -48,6 +51,9 @@
 .debug .violet {
   background-color: violet;
 }
+.debug .gray {
+  background-color: rgb(43, 42, 42);
+}
 /* Height */
 .debug .h1200 {
   height: 1200px;
@@ -63,6 +69,18 @@
 }
 .debug .h500 {
   height: 500px;
+}
+.debug .h300 {
+  height: 300px;
+}
+.debug .h400 {
+  height: 400px;
+}
+.debug .h200 {
+  height: 200px;
+}
+.debug .h100 {
+  height: 100px;
 }
 .debug .h80 {
   height: 80px;
@@ -82,6 +100,9 @@
 }
 .debug .w400 {
   width: 400px;
+}
+.debug .w100 {
+  width: 100px;
 }
 .debug .w80 {
   width: 80%;
