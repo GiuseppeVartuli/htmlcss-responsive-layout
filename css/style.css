@@ -145,8 +145,5 @@ nav {
 .col-5 {
   height: calc(500px / 12 * 4);
 }
-.col-6 {
-  width: calc(100% / 12 * 4);
-}
 
 /* end main */
